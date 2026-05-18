@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-one {
+    height: 300px;
+    width: 700px;
+    box-sizing: content-box;
+    border: 30px solid black;
+    padding: 50px;
+}
+
+.box-two {
+    height: 300px;
+    width: 700px;
+    box-sizing: border-box;
+        border: 30px solid black;
+    padding: 50px;
+}
