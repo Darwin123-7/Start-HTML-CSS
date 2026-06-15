@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        
+        body {
+        font-family: "Roboto", sans-serif;
+        }
+        .container-one {
+            flex-direction: column;
+            display: flex;
+            padding-left: 100px;
+            padding-right: 100px;
+            background:  rgb(31, 41, 55);
+            color: white;
+            margin-bottom: 15px;
+            height: 300px;
+
+        }
+
+        .box-one {
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            align-items: center;
+            height: 30px;
+            margin-bottom: 50px;
+            justify-content: center;
+            padding-bottom: 30px;
+            
+
+        }
+        .box-one #bold {
+            flex: 1;
+            font-size: 18x;
+            font-weight: bold;
+        }
+        .second-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
+        .main-title {
+
+            font-weight: bold;
+            font-size: 32px;
+            max-width: 200px;
+        }
+        
+        .major {
+        display: flex;
+        justify-content: space-around;
+        
+
+        }
+        .left {
+            background: gray;
+            flex-direction: row;
+            height: 150px;
+            width: 500px;
+            align-self: center;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        p {
+            max-width: 400px;
+        }
+
+        .sign {
+            background: rgb(75, 75, 218);
+            width: 90px;
+            border-radius: 7px;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+
+        .information {
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            gap: 30px;           
+            margin-bottom: 60px;
+        }
+        .text {
+            max-width: 130px;
+            text-align: center;
+            justify-content: center;
+            font-size: 15px;
+        }
+        .info {
+            flex-direction: column;     
+            display: flex;
+        }
+         .blue  {
+            border: 3px solid rgb(55, 55, 221);
+            width: 120px;
+            height: 120px;
+            border-radius: 15px;        
+        }
+        
+        .thunder {
+            justify-content: center;
+            align-items: center;
+            background: gray;
+            display: flex;
+            height: 300px;
+            flex-direction: column;
+                        margin-bottom: 60px;
+
+
+        }
+        
+        .mid {
+            display: flex;
+            flex-direction: column;
+
+        }
+        .bruh {
+            max-width: 645px;
+            font-size: 30px;
+            align-items: center;
+        }
+        .kot {
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+        }
+        .quote {
+            justify-content: flex-end;
+            display: flex;
+            flex: 1;
+            font-weight: bold;
+        }
+
+        .last {
+            flex-direction: row;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+        }
+        
+        .kont {
+            background: rgb(75, 75, 218);;
+            height: 90px;
+            width : 700px;
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            padding: 20px;
+            color: white;
+            border-radius: 6px;
+                        
+
+        }
+        .yeah {
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .signet {
+            border: 2px solid white;
+            border-radius: 5px;
+            width: 90px;
+            height: 30px;
+            justify-content: center;
+            align-items: center;        
+            display: flex;    
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="container-one">
+        <div class="box-one">
+            <div id="bold">Header Logo</div>
+            <div>Header link one </div>
+            <div>header link two</div>
+            <div>header link three</div>
+        </div>
+
+        <div class="second-container">
+            <div class="column">
+                <div class="main-title">This Website is awesome</div>
+                    <p>This website has some subtext that goes under the main title. It's a smaller font and color is lower in contrast</p>
+                    <div class="sign">Sign Up</div>
+            </div>
+
+            <div class="major">
+                <div class="left">
+                    <div>Image shpould be inside here</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>Some random Information</h2>
+
+    <div class="information">
+        <div class="info">
+            <div class="blue"></div>
+            <div class="text">This is some subtext under an illustration or image</div>
+        </div>
+        <div class="info">
+            <div class="blue"></div>
+            <div class="text">This is some subtext under an illustration or image</div>
+        </div>
+        <div class="info">
+            <div class="blue"></div>
+            <div class="text">This is some subtext under an illustration or image</div>
+        </div>
+        <div class="info">
+            <div class="blue"></div>
+        <div class="text">This is some subtext under an illustration or image</div>
+        </div>
+    </div>
+
+    <div class="thunder">
+        <div class="mid">
+            <div class="bruh"><i>This is an insipiring quote, or a testimonial from a customer. Maybe its just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</i></div>
+        <div class="kot">
+            <div class="quote">-Thor God of Thunder</div>
+        </div>
+        </div>
+    </div>
+
+    <div class="last">
+        <dic class="kont">
+            <div class="yeah">
+                <div>Call to action! Its' time!</div>
+                <div>Sign up for our product by clicking that button right over there!</div>
+            </div>
+
+            <div class="signet">
+            <div>Sign Up</div>
+            </div>
+
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>

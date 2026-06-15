@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            border: 3px solid green;
+            justify-content: center;
+            
+            }
+
+            .box {
+                
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+
+            }
+
+            .box div {
+            border: 3px solid yellow;
+            margin: 20px;
+            flex: 1;
+
+            }
+            
+           .box .getbigger {
+            flex: 3;
+            color: blue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            flex-wrap: wrap;
+            align-self: flex-start;
+           }
+
+           .second-box {
+            justify-content: space-between;
+            align-items: center;
+           }
+
+           .second-box div {
+            color: blue;
+            margin: 17px;
+            border: 3px solid red;
+
+           }
+
+          
+    </style>
+</head>
+
+<div class="container">
+    <div class="box">
+        <div>I'm smaller Div</div>
+        <div class="getbigger">This is the bigger Div</div>
+        <div>Me too Smaller</div>
+    </div>
+
+        <div class="second-box">
+            <div>Bruhh</div>
+            <div>Bruuh</div>
+            <div>Bruhh</div>
+        </div>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            flex-direction: column;
+        }
+
+        .main-box {
+            flex-direction: column;
+            display: flex;
+            border: 3px solid blue;
+            padding: 10px;
+            
+            
+        }
+
+        .secondary-box {
+            display: flex;
+            border: 3px solid black;
+            margin: 10px;
+            justify-content: center;
+            border-radius: 30px;
+            margin: 50px;
+
+        }
+
+        .space {
+             display: flex;
+            justify-content: space-between;
+            list-style: none;
+            width: 100%;
+            gap: 10px;
+            padding: 10px;
+
+        }
+
+
+        .another-box {
+            display: flex;
+            border: 3px solid black;
+            justify-content: space-between;
+        }
+
+       .center {
+        text-align: center;
+        flex: 1;
+       }
+        
+    </style>
+    
+</head>
+<body>
+
+    <div class="main-box">
+        <div class="secondary-box">
+            <ul class="space">
+            <li>About Us</li>
+            <li >Main Page</li>
+            <li>Home</li>
+            </ul>
+        </div>
+
+        <div class="another-box">
+            <ul class="space">
+            <li> <a href="" >Click Here </a></li>
+            <li> <a href="" >Yeah Me too </a></li>
+            <li> <a href="" >Ignore those shit </a></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
